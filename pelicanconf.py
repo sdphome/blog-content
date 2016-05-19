@@ -6,7 +6,8 @@ import datetime
 
 AUTHOR = u'shaodepeng'
 SITENAME = u'SDP日常笔记'
-SITEURL = 'sdphome.github.io'
+SITEURL = 'http://sdphome.github.io'
+NIUX2_DUOSHUO_SHORTNAME = 'sdphome'
 
 TIMEZONE = 'Asia/Shanghai'
 DATE_FORMATS = {
