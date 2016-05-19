@@ -6,7 +6,7 @@ import datetime
 
 AUTHOR = u'shaodepeng'
 SITENAME = u'SDP日常笔记'
-SITEURL = ''
+SITEURL = 'sdphome.github.io'
 
 TIMEZONE = 'Asia/Shanghai'
 DATE_FORMATS = {
@@ -162,7 +162,7 @@ NIUX2_GITHUB_REPO = 'sdphome/blog-content'
 
 NIUX2_CATEGORY_MAP = {
 	'code': ('代码', 'fa-code'),
-	'collection': ('搜藏', 'fa-briefcase'),
+	'collection': ('收藏', 'fa-briefcase'),
 	'essay': ('随笔', 'fa-leaf'),
 	'life': ('日常', 'fa-coffee'),
 	'note': ('笔记', 'fa-book'),
