@@ -17,7 +17,7 @@ DEFAULT_DATE = 'fs'  # use filesystem's mtime
 LOCALE = ('zh_CN.utf8',)
 DEFAULT_LANG = u'zh_CN'
 FILENAME_METADATA = '(?P<slug>.*)'
-
+DISQUS_SITENAME = 'sdphome'
 GOOGLE_ANALYTICS = 'UA-77974223-1'
 
 # Feed generation is usually not desired when developing
@@ -31,7 +31,7 @@ TRANSLATION_FEED_ATOM = None
 # use directory name as category if not set
 USE_FOLDER_AS_CATEGORY = True
 DELETE_OUTPUT_DIRECTORY = True
-DEFAULT_CATEGORY = 'uncategorized'
+DEFAULT_CATEGORY = '未分类'
 DEFAULT_PAGINATION = 7
 
 READERS = {
@@ -50,8 +50,8 @@ EXTRA_PATH_METADATA = {
 	'extra/favicon.ico': { 'path': 'favicon.ico' },
 	'extra/LICENSE.txt': { 'path': 'LICENSE.txt' },
 	'extra/robots.txt': { 'path': 'robots.txt' },
-	'extra/googlea4ca86ec98912b58.html': {'path': 'googlea4ca86ec98912b58.html' },
-	'extra/BingSiteAuth.xml': {'path': 'BingSiteAuth.xml' },
+#	'extra/googlea4ca86ec98912b58.html': {'path': 'googlea4ca86ec98912b58.html' },
+#	'extra/BingSiteAuth.xml': {'path': 'BingSiteAuth.xml' },
 }
 
 ARTICLE_URL = '{category}/{slug}.html'
