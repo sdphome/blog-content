@@ -163,11 +163,14 @@ NIUX2_GITHUB_REPO = 'sdphome/blog-content'
 
 NIUX2_CATEGORY_MAP = {
 	'code': ('代码', 'fa-code'),
-	'collection': ('收藏', 'fa-briefcase'),
+	'bookmark': ('转载', 'fa-bookmark'),
 	'essay': ('随笔', 'fa-leaf'),
 	'life': ('日常', 'fa-coffee'),
 	'note': ('笔记', 'fa-book'),
 	'research': ('研究', 'fa-flask'),
+	'ubuntu': ('ubuntu', 'fa-linux'),
+	'android': ('android/kernel', 'fa-android'),
+	'cloud': ('虚拟化/云', 'fa-cloud'),
 }
 
 NIUX2_HEADER_SECTIONS = [
