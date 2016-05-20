@@ -1,6 +1,6 @@
 Title: 关于
 Date: 2016-05-19 20:04
-Update: 2016-05-19 20:05
+Update: 2016-05-19 21:47
 Comment: off
 
 [1]: http://docs.getpelican.com/ "pelican documentation"
@@ -20,7 +20,7 @@ Comment: off
 
 ## 关于本博客
 
-本博客使用[pelican][1]搭建，文章(markdown格式)和pelican配置文件放在[这里][2]。博客采用niu-x2-sidebar主题，源码放在[这里][16]，作者的网站在[这里][20]，感谢作者提供如此有些的主题。
+本博客使用[pelican][1]搭建，文章(markdown格式)和pelican配置文件放在[这里][2]。博客采用niu-x2-sidebar主题，源码放在[这里][16]，作者的网站在[这里][20]，感谢作者提供如此强大的主题。
 
 如果没有特殊说明，本网站的原创文字作品和代码都使用商业友好的许可协议发布，详情可参考[使用协议][14]，希望对大家有些用处。
 

@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 from collections import OrderedDict
 import datetime
 
-AUTHOR = u'shaodepeng'
+AUTHOR = u'Shao Depeng'
 SITENAME = u'SDP日常笔记'
 SITEURL = 'http://sdphome.github.io'
 NIUX2_DUOSHUO_SHORTNAME = 'sdphome'
