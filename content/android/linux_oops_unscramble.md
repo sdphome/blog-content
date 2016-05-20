@@ -151,6 +151,8 @@ ffffffff 67e04544 00000009
                 return BCME_ERROR;
             }
         ........(下面省略一大段)
+		}
+	}
 
 由
 
@@ -234,7 +236,7 @@ oops提供的信息中包含了各个寄存器的值，让我们来看看r2，r2
 
 其实写这篇文章的目的也主要是为了讲述怎么从oops信息中去查找对应c代码中的错误行的，在linux内核调试中还是很有用的。
 
->Unable to handle kernel paging request at virtual address <pre name="code" class="cpp">9c0d5030  
+>Unable to handle kernel paging request at virtual address &lt;pre name="code" class="cpp">9c0d5030  
 
 其实对于这句话我还是没有能够理解到底是怎么了，怎么会出现这种错误，
 
@@ -246,13 +248,14 @@ ps: 解答上面的问题
 ## 解答
 不能访问的内核虚地址为45685516，内核中一般可访问的地址都是以0xCXXXXXXX开头的地址。
 
-Oops: 0002 [#1]
+	Oops: 0002 [#1]
 
 这里面，0002表示Oops的错误代码（写错误，发生在内核空间），#1表示这个错误发生一次。
 
 Oops的错误代码根据错误的原因会有不同的定义，本文中的例子可以参考下面的定义（如果发现自己遇到的Oops和下面无法对应的话，最好去内核代码里查找）：
 
 error_code:
+
 * bit 0 == 0 means no page found, 1 means protection fault
 * bit 1 == 0 means read, 1 means write
 * bit 2 == 0 means kernel, 1 means user-mode
