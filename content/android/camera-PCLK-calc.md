@@ -1,6 +1,6 @@
 Title: 对于camera调试中PCLK的计算
 Date: 2012-06-20 15:05
-Update: 2016-05-27 11:58
+Update: 2016-05-30 15:34
 
 [1]: /static/images/android/BT656-Lines.png
 
@@ -24,7 +24,7 @@ PCLK即 pixclk,像素时钟信号
 
 典型的一行数据组成如下图所示：
 
-[BT656 LINES][1]
+![BT656 LINES][1]
 
 起始码（SAV）和结束码（EAV），它是标志着一行的开始结束的重要标记，也包含了其他的一些重要的信息。
 

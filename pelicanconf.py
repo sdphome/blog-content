@@ -85,7 +85,7 @@ PLUGINS = [
 	'extract_headings',
 	'update_date',
 	'summary',
-	'niux2_lazyload_helper',
+#	'niux2_lazyload_helper',
 	'niux2_hermit_player',
 ]
 
