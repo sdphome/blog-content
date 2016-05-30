@@ -168,8 +168,8 @@ NIUX2_CATEGORY_MAP = {
 	'life': ('日常', 'fa-coffee'),
 	'note': ('笔记', 'fa-book'),
 	'research': ('研究', 'fa-flask'),
-	'ubuntu': ('ubuntu', 'fa-linux'),
-	'android': ('android/kernel', 'fa-android'),
+	'linux': ('linux', 'fa-linux'),
+	'android': ('android', 'fa-android'),
 	'cloud': ('虚拟化/云', 'fa-cloud'),
 }
 
